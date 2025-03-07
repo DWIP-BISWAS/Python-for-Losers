@@ -9,4 +9,12 @@
         <changefreq>daily</changefreq>
     </url>
 
+    <!-- 404 Page (Yes, Google Can Index It Too) -->
+    <url>
+        <loc>https://dwip-biswas.github.io/Python-for-Losers/404.html</loc>
+        <lastmod>2025-03-07T09:05:34+00:00</lastmod>
+        <priority>0.1</priority>
+        <changefreq>never</changefreq>
+    </url>
+
 </urlset>
