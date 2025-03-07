@@ -13,3 +13,4 @@ Welcome to **PythonForLosers**, the most **insulting, unhinged, chaotic** Python
 This site contains **zero helpful content,** just insults and suffering. Enter at your own risk.
 
 ###**💀Site**
+https://dwip-biswas.github.io/Python-for-Losers/
