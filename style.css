@@ -1,17 +1,108 @@
-body {
-    font-family: 'Comic Sans MS', cursive;
-    text-align: center;
-    background-color: black;
-    color: neon-green;
-    font-size: 18px;
+/* 💀 BASIC STYLES FOR THE WHOLE PAGE 💀 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* BODY: DARK MODE GANG 💀 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Darker than your future */
+    color: #00ff00; /* Hacker green */
+    text-align: center;
+    padding: 20px;
+}
+
+/* 💀 H1: THE KING OF ROASTS 💀 */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px red, -3px -3px 0px blue;
+    margin-bottom: 20px;
+}
+
+/* 💀 H2: LESS INTIMIDATING BUT STILL LOUD 💀 */
+h2 {
+    font-size: 2rem;
+    color: yellow; /* Makes you regret reading this */
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+/* 💀 P: BECAUSE YOU NEED TO READ THE INSULTS 💀 */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 💀 BUTTONS: AGGRESSIVE AS F*CK 💀 */
 button {
     background: red;
     color: white;
-    padding: 10px;
-    margin: 10px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
     cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    border-radius: 5px;
 }
+
 button:hover {
     background: darkred;
+    transform: scale(1.1);
+}
+
+/* 💀 LINKS: PURE CHAOS 💀 */
+a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: orange;
+    text-shadow: 0 0 10px orange;
+}
+
+/* 💀 RESPONSIVENESS: BECAUSE NOT EVERYONE HAS A 4K MONITOR 💀 */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
 }
