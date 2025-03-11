@@ -46,6 +46,24 @@ document.getElementById("download-btn").addEventListener("click", function() {
     }, 3000);
 });
 
+/* 💀 Download Button Trolling 2💀 */
+document.getElementById("download-btn2").addEventListener("click", function() {
+    let trollMessages = [
+        "You really think you're ready for this book? Fine, take it...",
+        "Downloading... just kidding. Try again.",
+        "Error 404: Intelligence Not Found. Retrying...",
+        "Are you sure? This book will destroy your soul.",
+        "Final warning: This book has roasted 1000+ people into quitting coding."
+    ];
+
+    let trollIndex = Math.floor(Math.random() * trollMessages.length);
+    alert(trollMessages[trollIndex]);
+
+    setTimeout(() => {
+        window.location.href = "Python For Losers 2.pdf";
+    }, 3000);
+});
+
 /* 💀 Job Interview Simulation (100% Failure Rate) 💀 */
 function jobInterview() {
     let questions = [
